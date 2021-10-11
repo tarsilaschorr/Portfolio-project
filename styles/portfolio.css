@@ -1,0 +1,36 @@
+body {
+  color: azure;
+}
+h1,
+h2,
+h3,
+p {
+  color: black;
+}
+h1 {
+  font-family: "Dancing Script", cursive;
+  font-size: 40px;
+}
+h2 {
+  font-family: "Open Sans", sans-serif;
+  font-size: 14px;
+}
+p {
+  font-family: "Playfair Display", serif;
+}
+.heading-photo {
+  max-width: 100%;
+  display: block;
+  margin-top: 30px;
+  border-radius: 4px;
+}
+.heading {
+  margin-top: 60px;
+}
+hr {
+  color: black;
+  margin: 20px;
+}
+.info {
+  margin-top: 30px;
+}
