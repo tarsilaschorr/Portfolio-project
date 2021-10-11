@@ -61,7 +61,8 @@ footer {
   padding: 10px 15px;
   background-color: var(--button-color);
   display: block;
-  margin: 0px 200px;
+  margin: 0px 500px;
+  max-width: 70%;
 }
 .certificate {
   width: 100%;
@@ -107,4 +108,7 @@ footer {
 }
 div.row.heading {
   margin-top: 0px;
+}
+div.languages {
+  width: 60%;
 }
