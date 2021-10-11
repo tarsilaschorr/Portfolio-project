@@ -1,5 +1,12 @@
+:root {
+  --primary-color: #f9f7fe;
+  --secondary-color: #f0beca;
+  --button-color: #cab6fd;
+}
+
 body {
-  color: azure;
+  color: rgb(162, 247, 247);
+  background-color: white;
 }
 h1,
 h2,
@@ -22,15 +29,82 @@ p {
   max-width: 100%;
   display: block;
   margin-top: 30px;
+  margin-bottom: 30px;
   border-radius: 4px;
 }
 .heading {
   margin-top: 60px;
+  background-color: var(--primary-color);
 }
 hr {
   color: black;
-  margin: 20px;
+  margin: 0px;
+}
+footer {
+  text-align: center;
+  margin: 40px;
 }
 .info {
   margin-top: 30px;
+}
+.content-images {
+  max-width: 80%;
+  margin: 10px;
+  padding: 10px;
+}
+
+.btn-branding {
+  border-radius: 4px;
+  color: black;
+  font-size: 14px;
+  line-height: 20px;
+  padding: 10px 15px;
+  background-color: var(--button-color);
+  display: block;
+  margin: 0px 200px;
+}
+.certificate {
+  width: 100%;
+  margin-bottom: 40px;
+}
+.body-photo {
+  max-width: 100%;
+  display: block;
+  margin-top: 30px;
+  border-radius: 4px;
+  box-shadow: 0 10px 20px rgb(0 0 0 / 20%);
+}
+.subtitles {
+  font-weight: 500;
+  font-size: 28px;
+  text-align: center;
+  padding: 20px;
+  margin: 20px;
+}
+.social-media {
+  color: black;
+  padding: 10px;
+  margin: 10px;
+  margin-bottom: 30px;
+}
+.social-media:hover {
+  color: var(--button-color);
+  cursor: pointer;
+}
+.link {
+  color: black;
+  text-decoration: none;
+}
+.link:hover {
+  color: var(--button-color);
+  text-decoration: none;
+}
+.bg-purple {
+  background-color: var(--primary-color);
+}
+.purple {
+  background-color: var(--primary-color);
+}
+div.row.heading {
+  margin-top: 0px;
 }
