@@ -33,6 +33,13 @@ p {
   margin-bottom: 30px;
   border-radius: 4px;
 }
+.coding-photo {
+  width: 50%;
+  display: block;
+  margin: 0 auto;
+  margin-bottom: 0;
+  border-radius: 4px;
+}
 .heading {
   margin-top: 60px;
   background-color: var(--primary-color);
@@ -45,11 +52,27 @@ footer {
   text-align: center;
   margin: 40px;
 }
+div.purple {
+  margin: 0 auto;
+}
+div.col-sm {
+  display: flex;
+  justify-content: center;
+}
+p.skills {
+  font-size: 16px;
+  font-weight: 500;
+}
 .info {
   margin-top: 60px;
 }
 .content-images {
   max-width: 80%;
+  margin: 10px;
+  padding: 10px;
+}
+.skills-images {
+  max-width: 80px;
   margin: 10px;
   padding: 10px;
 }
@@ -67,6 +90,22 @@ footer {
   margin-right: auto;
   box-shadow: 0 10px 20px rgb(0 0 0 / 20%);
 }
+.btn-apps {
+  border-radius: 4px;
+  color: black;
+  font-size: 14px;
+  line-height: 20px;
+  padding: 10px 15px;
+  background-color: var(--button-color);
+  display: block;
+  width: 150px;
+  margin-left: auto;
+  margin-right: auto;
+  box-shadow: 0 10px 20px rgb(0 0 0 / 20%);
+}
+.btn-apps:hover {
+  text-decoration: underline;
+}
 .certificate {
   width: 100%;
   margin-bottom: 40px;
@@ -78,18 +117,29 @@ footer {
   border-radius: 4px;
   box-shadow: 0 10px 20px rgb(0 0 0 / 20%);
 }
+.project-photo {
+  max-width: 70%;
+  display: block;
+  margin: 0 auto;
+  margin-top: 30px;
+  border-radius: 4px;
+  box-shadow: 0 10px 20px rgb(0 0 0 / 20%);
+  border: 2px solid rgb(0 0 0 / 20%);
+}
 .subtitles {
   font-weight: 500;
   font-size: 28px;
   text-align: center;
   padding: 20px;
   margin: 20px;
+  margin-top: 0;
 }
 .social-media {
   color: black;
   padding: 10px;
   margin: 10px;
   margin-bottom: 30px;
+  font-size: 30px;
 }
 
 .social-media:hover {
@@ -100,9 +150,19 @@ footer {
   color: black;
   text-decoration: none;
 }
+.git-link {
+  color: black;
+  text-decoration: underline;
+}
+.git-link:hover {
+  color: var(--button-color);
+}
 .link:hover {
   color: var(--button-color);
   text-decoration: none;
+}
+.github {
+  margin-top: 10px;
 }
 
 .bg-purple {
@@ -122,6 +182,14 @@ div.languages {
   line-height: 1.5;
   text-align: justify;
   padding: 30px 30px 30px 0;
+}
+h1.work-headers {
+  margin-top: 30px;
+  font-size: 40px;
+}
+p.work-headers {
+  font-size: 14px;
+  margin-right: 60px;
 }
 @media (max-width: 576px) {
   h1 {
@@ -149,5 +217,10 @@ div.languages {
   }
   .content-images {
     display: none;
+  }
+  .skills-images {
+    max-width: 100px;
+    margin: 10px;
+    padding: 10px;
   }
 }
