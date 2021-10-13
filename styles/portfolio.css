@@ -91,6 +91,7 @@ footer {
   margin: 10px;
   margin-bottom: 30px;
 }
+
 .social-media:hover {
   color: var(--button-color);
   cursor: pointer;
@@ -103,6 +104,7 @@ footer {
   color: var(--button-color);
   text-decoration: none;
 }
+
 .bg-purple {
   background-color: var(--primary-color);
 }
