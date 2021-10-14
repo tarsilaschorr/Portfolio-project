@@ -48,6 +48,9 @@ hr {
   color: black;
   margin: 0px;
 }
+hr.footer {
+  margin-top: 30px;
+}
 footer {
   text-align: center;
   margin: 40px;
@@ -134,6 +137,14 @@ p.skills {
   margin: 20px;
   margin-top: 0;
 }
+p.work-header {
+  font-weight: 500;
+  font-size: 28px;
+  text-align: center;
+  padding: 20px;
+  margin: 20px;
+  margin-top: 0;
+}
 .social-media {
   color: black;
   padding: 10px;
@@ -198,6 +209,9 @@ p.SheCodes-Pro {
   font-size: 14px;
   margin: 0 0 16px 0;
 }
+.margin {
+  margin-left: 48px;
+}
 @media (max-width: 576px) {
   h1 {
     font-size: 30px;
@@ -226,8 +240,42 @@ p.SheCodes-Pro {
     display: none;
   }
   .skills-images {
-    max-width: 100px;
-    margin: 10px;
-    padding: 10px;
+    display: none;
+  }
+  .project-photo {
+    display: none;
+  }
+  p.skills {
+    display: none;
+  }
+  p.work-headers {
+    margin: 0 auto;
+    margin-bottom: 20px;
+  }
+  h1.work-headers {
+    text-align: center;
+    font-size: 30px;
+  }
+  a.git-link {
+    text-align: center;
+    margin: 0 auto;
+  }
+  div.col-md.github {
+    text-align: center;
+  }
+  div.center {
+    margin: 0 auto;
+  }
+  div.col-md-5 {
+    margin: 0 auto;
+  }
+
+  div.col-md-6 h1,
+  p,
+  a {
+    text-align: center;
+  }
+  p.work-header {
+    font-size: 25px;
   }
 }
