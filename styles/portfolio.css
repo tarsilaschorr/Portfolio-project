@@ -171,6 +171,9 @@ p.skills {
 .purple {
   background-color: var(--primary-color);
 }
+div.center {
+  margin-left: 40px;
+}
 div.row.heading {
   margin-top: 0px;
 }
@@ -190,6 +193,10 @@ h1.work-headers {
 p.work-headers {
   font-size: 14px;
   margin-right: 60px;
+}
+p.SheCodes-Pro {
+  font-size: 14px;
+  margin: 0 0 16px 0;
 }
 @media (max-width: 576px) {
   h1 {
