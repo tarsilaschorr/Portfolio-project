@@ -34,11 +34,17 @@ p {
   border-radius: 4px;
 }
 .coding-photo {
-  width: 50%;
+  max-width: 50%;
   display: block;
   margin: 0 auto;
   margin-bottom: 0;
   border-radius: 4px;
+}
+span.source {
+  text-align: center;
+  font-size: 12px;
+  color: black;
+  display: block;
 }
 .heading {
   margin-top: 60px;
