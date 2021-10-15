@@ -291,6 +291,13 @@ p.SheCodes-Pro {
   p.subtitles {
     font-size: 18px;
   }
+  p.responsive {
+    font-size: 14px;
+  }
+  a.email-link {
+    text-align: center;
+    display: block;
+  }
 
   .content-images {
     display: none;
