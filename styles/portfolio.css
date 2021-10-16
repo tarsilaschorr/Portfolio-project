@@ -80,6 +80,10 @@ footer {
   text-align: center;
   margin: 40px;
 }
+p.open-code {
+  margin: 10px;
+  font-size: 10px;
+}
 div.purple {
   margin: 0;
 }
