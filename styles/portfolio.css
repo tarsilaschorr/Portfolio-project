@@ -62,6 +62,10 @@ div.coding-image {
   display: block;
   margin-top: 150px;
 }
+div.about-pictures {
+  padding: 0;
+  margin-left: -50px;
+}
 
 body.contact-page {
   background-color: var(--primary-color);
@@ -77,7 +81,7 @@ footer {
   margin: 40px;
 }
 div.purple {
-  margin: 0 auto;
+  margin: 0;
 }
 div.col-sm {
   display: flex;
@@ -245,6 +249,20 @@ div.languages {
   text-align: justify;
   padding: 30px 30px 30px 0;
 }
+.about-description {
+  font-size: 14px;
+  line-height: 1.5;
+  margin: 10px 0;
+  text-align: justify;
+  text-indent: 30px;
+}
+img.about-images {
+  width: 100%;
+  margin: 20px;
+  margin-left: 30px;
+  border-radius: 5px;
+}
+
 h1.work-headers {
   margin-top: 30px;
   font-size: 40px;
@@ -269,6 +287,7 @@ p.SheCodes-Pro {
 @media (max-width: 576px) {
   h1 {
     font-size: 30px;
+    text-align: center;
   }
   h2 {
     font-size: 18px;
